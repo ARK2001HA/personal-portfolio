@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Portfolio</a>
+
+    <nav class="navbar">
+      <a href="#home" style="--i:1;"class="active">Home</a>
+      <a href="#about" style="--i:2;">About</a>
+      <a href="#Skills" style="--i:3;">Skill</a>
+      <a href="https://drive.google.com/file/d/16mB2mm4-YdYBEtkIhXvsDLlHkXIc7QDP/view?usp=sharing" style="--i:4;">Resume</a>
+      <a href="#contact" style="--i:5;">Contact</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, It's me</h3>
+      <h1>Anand Raj Keshari</h1>
+      <h3>And I'm a <span class="text"> </span></h3>
+      <p>I'm a full-stack developer with expertise 
+        <br>to create and design websites.
+      </p>
+      <div class="home-sci">
+        <a href="https://www.facebook.com/anandraj.keshari.94/" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/keshari_raj_anand_3/" style="--i:8;"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/anand-raj-keshari-333934220/" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/ARK2001HA" style="--i:10;"><i class='bx bxl-github'></i></a>   
+      </div>
+      <a href="#" class="btn-box">More About Me</a>
+    </div>
+    <span class="home-imgHover"></span>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images\ark2.png">
+    </div>
+    <div class="about-text">
+      <h2>About<span>Me</span></h2>
+      <h4>Full Stack Developer!</h4>
+      <p>Welcome to my corner of the web! I'm a full stack web developer specializing in front-end and back-end technologies. My toolkit includes HTML, CSS, JavaScript, PHP, Mysql and a dash of creativity. I take pride in turning my ideas into pixel-perfect and responsive designs.</p>
+      <a href="#" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Projects</span></h1>
+        <div class="services-list">
+          <div>
+            <i class='bx bx-code' style='color: #00eeff'></i>
+            <h2>Online Grocery Management Website</h2>
+            <p>An Online Grocery Management System is a comprehensive web application designed to streamline and simplify the process of buying groceries online. This system is built using a combination of technologies, including HTML, CSS, JavaScript, jQuery, AJAX, MySQL, and the CodeIgniter framework.
+            This Online Grocery Management System simplifies the grocery shopping experience by providing a user-friendly interface, efficient order processing, and a secure environment for both customers and administrators. It leverages a variety of web technologies to ensure a smooth and enjoyable online grocery shopping experience for users while helping grocery store owners efficiently manage their inventory and sales.</p>
+            <a href="https://github.com/ARK2001HA/Grocery-Management-Website" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class='bx bx-book-open' style='color:#12b6e4'  ></i>
+            <h2>Library Mangement Website</h2>
+            <p>A Virtual Library Management System is a system that maintains the information about the books present in the library, their authors, the members of the library to whom books are issued, library staff, and all. This is very difficult to organize manually. Maintenance of all this information manually is a very complex task. Owing to the advancement of technology, the organization of a Virtual Library Management System becomes much simple. The Virtual Library Management System has been designed to computerize and automate the operations performed over the information about the members, book issues and returns, and all other operations. This computerization of the library helps in many instances of its maintenances.</p>
+            <a href="https://github.com/ARK2001HA/Library-Management-Project" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class='bx bxs-dice-6' style='color:#12b6e4' ></i>
+            <h2>Gaming Website</h2>
+            <p>This projects aims to develop an internet web browser based strategy game application. 
+Strategy games engage the player for a long time and improve cognitive skills. This game 
+application is divided into two sections. First section of game is online gaming and games 
+which can be downloaded. Online games can be played while being online and can be later 
+downloaded for offline playing. Some games need to be bought for as teaser game trailers 
+are only available in videos section. To develop this web application we are using internet 
+programming languages i.e. HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and SQL. The 
+main aim of the games is to enhance users planning and thinking skills along with providing 
+entertainment.Currently the games are available on Web platform, and we have planned to extend it to 
+mobile as well as other game platforms.</p>
+            <a href="https://github.com/ARK2001HA/Game-Website" class="read">Learn More</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <h1 class="sub-title">My <span>Skills</span></h1>
+
+  <section>
+    <div class="container1" id="Skills">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="Technical-bars">
+        <div class="bar"><i class='bx bxl-html5' style='color:#c95d2e'></i>
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-css3' style='color:#4cdeee' ></i>
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-javascript' style='color:#b0bc1e'></i>
+          <div class="info">
+            <span>Javascript</span>
+          </div>
+          <div class="progress-line javascript">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-php' style='color:##8993be' ></i>
+          <div class="info">
+            <span>PHP</span>
+          </div>
+          <div class="progress-line php">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-mongodb' style='color:#4DB33D'></i>
+          <div class="info">
+            <span>MySql</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-c-plus-plus' style='color:#1d1bdb'  ></i>
+          <div class="info">
+            <span>C</span>
+          </div>
+          <div class="progress-line c">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-java' style='color:#1bd6d4'></i>
+          <div class="info">
+            <span>JAVA</span>
+          </div>
+          <div class="progress-line java">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container1">
+      <h1 class="heading1">Professional Skills</h1>
+      <div class="radial-bars">
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Creativity</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">65%</div>
+          <div class="text">Communication</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">75%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">85%</div>
+          <div class="text">Teamwork</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>Let's work Together</h4>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+      <div class="contact-list">
+        <li><i class='bx bxs-send'></i>anandrajkeshari2001@gmail.com</li>
+        <li><i class='bx bxs-phone'></i>+91 8240565064</li>
+        <li></li>
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.facebook.com/anandraj.keshari.94/"><i class='bx bxl-facebook-circle' ></i></a>
+        <a href="https://www.instagram.com/keshari_raj_anand_3/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/anand-raj-keshari-333934220/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/ARK2001HA"><i class='bx bxl-github'></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="contactaction.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required id="emailInput">
+        <input type="text" name="phone" placeholder="Enter your phone no.">
+        <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+        <input type="submit" name="submit" value="Submit" class="send">
+      </form>
+    </div>
+  </section>
+  <div class="last-text">
+    <p>Developed with love by Anand Raj Keshari</p>
+  </div>
+  <a href="" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+  <script src="script.js"></script>
+  
+</body>
+</html>
